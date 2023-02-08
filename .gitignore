@@ -6,3 +6,6 @@ data/
 
 # cache
 __pycache__/
+
+# vs code settings
+.vscode/

@@ -6,9 +6,7 @@ services:
       - ./data/mysql:/var/lib/mysql
     ports:
       - '3306:3306'
-
+      
     environment:
-      MYSQL_ROOT_PASSOWRD: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
       MYSQL_DATABASE: 'test'
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'root'
-      MYSQL_RANDOM_ROOT_PASSWORD: 'root'
